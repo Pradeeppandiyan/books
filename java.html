@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURESH</title>
+   
+
+    <link rel="stylesheet" href="java.css">
+    <link rel="icon" href="book-icon-138.png">
+    
+</head>
+<body>
+    <div id="navbar">
+<h1 id="name ">suresh</h1>
+        <ul>
+            <li>
+                 <a href="#">Home|<i class="fi fi-sr-home"></i></a></li>
+            <li><a href="#">Contac<i class="fi fi-sr-phone-call"></i></a></li>
+            <li>Help</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="books-container" >
+            <h1>Rich Dad Poor Dad</h1>
+            <h3>Robert</h4>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum esse velit ad nam pariatur dolore autem impedit eaque maxime aliquam totam eum illo, iste in suscipit exercitationem veritatis quod odio voluptate amet atque cumque dolor ex. Ipsum, impedit culpa assumenda ipsa pariatur error autem labore reiciendis, iure commodi consequatur consectetur.
+
+            </P>
+            <button  >delete</button>
+        </div>
+   
+    
+        <div class="books-container">
+            <h1>Rich Dad Poor Dad</h1>
+            <h3>Robert</h4>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum esse velit ad nam pariatur dolore autem impedit eaque maxime aliquam totam eum illo, iste in suscipit exercitationem veritatis quod odio voluptate amet atque cumque dolor ex. Ipsum, impedit culpa assumenda ipsa pariatur error autem labore reiciendis, iure commodi consequatur consectetur.
+
+            </P>
+            <button onclick="deletebook(event)">delete</button>
+        </div>
+    </div >
+   
+    <div class="popup-overlay">
+    </div>
+    <div class="popup-box" >
+        <h2>AddBook</h2>
+      <form >
+            <input type="text" placeholder="BookTitle" id="booktitle-input">
+            <input type="text" placeholder="bookauthor" id="bookauthor-input">
+             <textarea placeholder="discription" id="book-discription">
+             </textarea>
+
+         <button id="addbook" type="button">add</button>
+
+          <button id="cancelbook" type="button" onclick="cen()">cancel</button>
+       </form>
+    </div>
+         <button class="addbutton" id="popup-button">+</button>
+    <script src="javascript.js"></script>
+
+</body>
+<html>
